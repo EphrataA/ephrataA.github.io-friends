@@ -1,0 +1,62 @@
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-image: url(download.jpg);
+height: 500px;
+} 
+.container{
+width: 500px;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+padding: 30px 30px 25px;
+}
+.wrapper header{
+    color: rgb(85, 71, 177);
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper .container{
+    margin: 35px 0;
+}
+.container .quote-area{
+    display:flex;
+    justify-content: center;
+}
+.quote-area .quote{
+    text-align: center;
+    word-break: break-all;
+}
+.container .author{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: flex-end;
+    font-style: italic;
+    font-family: monospace;
+}
+.container .button{
+    border-top: 1px solid rgb(167, 122, 122);
+}
+.btn {
+    border: none;
+    color: rgb(228, 207, 207);
+    padding: 6px 18px;
+    background-color: rgb(111, 87, 177);
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.twitter-share-button{
+    border: none;
+    color: rgb(240, 211, 211);
+    padding: 6px 18px;
+    background-color: rgb(110, 88, 172);
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+}
